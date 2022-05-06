@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="566.0" prefWidth="199.0" style="-fx-background-color: BLACK;">
+         <children>
+            <ImageView fitHeight="193.0" fitWidth="184.0" layoutX="8.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resorces/Screenshot%20(63).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="164.0" fitWidth="162.0" layoutX="14.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resorces/Circle-icons-hourglass.svg.png" />
+               </image>
+            </ImageView>
+            <DatePicker layoutX="8.0" layoutY="376.0" promptText="ORDER DATE" style="-fx-background-color: WHITE;" />
+            <Text fill="#efe6e6" fontSmoothingType="LCD" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ORDER DATE" textAlignment="CENTER" wrappingWidth="198.40000000000003" />
+         </children>
+      </AnchorPane>
+      <TableView layoutX="209.0" layoutY="21.0" prefHeight="362.0" prefWidth="511.0" style="-fx-background-color: black;">
+        <columns>
+          <TableColumn prefWidth="97.60005187988281" text="PRODUCT NO" />
+          <TableColumn prefWidth="101.5999755859375" text="DESCRIPTION" />
+            <TableColumn prefWidth="75.0" text="UNIT PRICE" />
+            <TableColumn prefWidth="75.0" text="UNITS" />
+            <TableColumn prefWidth="84.79997558593749" text="PRICE" />
+            <TableColumn prefWidth="79.19998779296873" text="TOTAL" />
+        </columns>
+      </TableView>
+      <TextArea layoutX="209.0" layoutY="393.0" prefHeight="46.0" prefWidth="262.0" promptText="THANK YOU FOR YOUR PURCHASE" style="-fx-background-color: WHITE;" text="THANK YOU FOR YOUR PURCHASE&#10;FOR FURTHER DETAILS CONTACT US&#10;" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="678.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resorces/Rc144df2dea1fdc10ab2e7877e82a3583.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
